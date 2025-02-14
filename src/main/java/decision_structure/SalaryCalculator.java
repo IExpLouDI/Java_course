@@ -17,5 +17,6 @@ public class SalaryCalculator {
         }
 
         System.out.println("Salary: " + salary);
+        scanner.close();
     }
 }
