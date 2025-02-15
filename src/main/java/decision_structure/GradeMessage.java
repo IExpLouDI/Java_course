@@ -32,7 +32,7 @@ public class GradeMessage {
             default:
                 message = "Error. Invalid grade!";
                 break;
-        };
+        }
         System.out.println(message);
     }
 }
