@@ -1,7 +1,5 @@
 package objects;
 
-import java.util.Scanner;
-
 public class RecordClassTest {
     record Reactions(int id, String title, String type) {
         // Дополнительные методы (опционально)
