@@ -29,4 +29,13 @@ public class Person {
 
     private int age;
     private String gender;
+
+//    default constructor
+//    public Person(){
+//        System.out.println("In Person default constructor");
+//    }
+
+    public Person(String name){
+        System.out.println("In Person 2nd constructor");
+    }
 }
