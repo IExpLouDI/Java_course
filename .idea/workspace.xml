@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f413-7704-45f5-a064-cf17da62e900" name="Changes" comment="overload inherited methods">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="acf7f413-7704-45f5-a064-cf17da62e900" name="Changes" comment="Create print in superclass then overload">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/InheritanceTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/InheritanceTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objects/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objects/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -361,7 +358,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740071669507</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Create print in superclass then overload">
+      <option name="closed" value="true" />
+      <created>1740072174504</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1740072174504</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +408,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="GrossPayCalculator" />
     <MESSAGE value="SalaryCalculator with condition if" />
     <MESSAGE value="SalaryCalculator with condition if and close scanner" />
     <MESSAGE value="QuotaCalculator with condition if else" />
@@ -428,7 +432,8 @@
     <MESSAGE value="Create some classes&#10;Person and Employee" />
     <MESSAGE value="Проверка вызова конструкторов в классах&#10;&#10;Использование super в дочерних классах" />
     <MESSAGE value="overload inherited methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="overload inherited methods" />
+    <MESSAGE value="Create print in superclass then overload" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create print in superclass then overload" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
