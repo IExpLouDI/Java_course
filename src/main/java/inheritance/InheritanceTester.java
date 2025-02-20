@@ -3,7 +3,12 @@ package inheritance;
 import objects.Rectangle;
 
 public class InheritanceTester {
-
+    /**
+     * constructors are not inherited
+     * public and protected members are inherited
+     * private members are not inherited
+     * final methods can be inherited but not overridden
+     */
     public static void main(String[] args){
 //        Person person = new Person();
 //        Employee employee = new Employee();
