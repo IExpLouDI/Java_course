@@ -15,4 +15,7 @@ public class Square extends Rectangle {
         return sides * length;
     }
 
+    public void print(String what){
+        System.out.println("I am a " + what);
+    }
 }

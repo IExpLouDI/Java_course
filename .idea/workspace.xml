@@ -4,18 +4,85 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f413-7704-45f5-a064-cf17da62e900" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="acf7f413-7704-45f5-a064-cf17da62e900" name="Changes" comment="overload inherited methods">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/InheritanceTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/InheritanceTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/objects/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objects/Rectangle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "OPEN",
+      "author": "IExpLouDI"
+    },
+    {
+      "state": "OPEN"
+    }
+  ],
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
+    {
+      "id": {
+        "id": "PR_kwDON5sVi86LVgWK",
+        "number": 1
+      },
+      "lastSeen": 1739617556951
+    },
+    {
+      "id": {
+        "id": "PR_kwDON5sVi86LWSur",
+        "number": 3
+      },
+      "lastSeen": 1739647628265
+    }
+  ]
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/IExpLouDI/Java_course.git",
+    "accountId": "7711a45c-e08c-4f22-9d77-e04f33edc468"
+  },
+  "recentNewPullRequestHead": {
+    "server": {
+      "useHttp": false,
+      "host": "github.com",
+      "port": null,
+      "suffix": null
+    },
+    "owner": "IExpLouDI",
+    "repository": "Java_course"
+  }
+}]]></component>
   <component name="GradleModuleStateConfig" initialized="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -27,12 +94,40 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddNunbers.executor": "Run",
+    "Application.Cashier.executor": "Run",
+    "Application.GradeMessage.executor": "Run",
+    "Application.GradeMessage_SwitchExpressions.executor": "Run",
+    "Application.GreetUser.executor": "Run",
+    "Application.GrossPayCalculator.executor": "Run",
+    "Application.GrossPayInput.executor": "Run",
+    "Application.HomeAreaCalculator.executor": "Run",
+    "Application.HomeAreaCalculatorRedo.executor": "Run",
+    "Application.InheritanceTester.executor": "Run",
+    "Application.InstantCreditCheck.executor": "Run",
+    "Application.LotteryTicket.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.OverloadSumNumber.executor": "Run",
+    "Application.QuotaCalculator.executor": "Run",
+    "Application.RecordClassTest.executor": "Run",
+    "Application.Rectangle.executor": "Run",
+    "Application.SalaryCalculator.executor": "Run",
+    "Application.StudentsAverageScores.executor": "Run",
+    "Application.TestResults.executor": "Run",
+    "Application.TextProcessor.executor": "Run",
+    "Maven.Java_course [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "part__6",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/vssuchkov/Desktop/IT/Educational/java/Projects/Java_course/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="objects" />
+      <recent name="decision_structure" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -42,15 +137,306 @@
       <option name="presentableId" value="Default" />
       <updated>1739557983006</updated>
     </task>
+    <task id="LOCAL-00001" summary="start project">
+      <option name="closed" value="true" />
+      <created>1739558533041</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739558533041</updated>
+    </task>
+    <task id="LOCAL-00002" summary="GrossPayCalculator">
+      <option name="closed" value="true" />
+      <created>1739562142169</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1739562142169</updated>
+    </task>
+    <task id="LOCAL-00003" summary="SalaryCalculator with condition if">
+      <option name="closed" value="true" />
+      <created>1739562622348</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1739562622348</updated>
+    </task>
+    <task id="LOCAL-00004" summary="SalaryCalculator with condition if and close scanner">
+      <option name="closed" value="true" />
+      <created>1739562842631</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739562842631</updated>
+    </task>
+    <task id="LOCAL-00005" summary="QuotaCalculator with condition if else">
+      <option name="closed" value="true" />
+      <created>1739598977769</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739598977769</updated>
+    </task>
+    <task id="LOCAL-00006" summary="TestResults with condition if else else-if">
+      <option name="closed" value="true" />
+      <created>1739599509201</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1739599509201</updated>
+    </task>
+    <task id="LOCAL-00007" summary="GradeMessage with switch">
+      <option name="closed" value="true" />
+      <created>1739601676618</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1739601676618</updated>
+    </task>
+    <task id="LOCAL-00008" summary="GradeMessage with switch">
+      <option name="closed" value="true" />
+      <created>1739601821380</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739601821380</updated>
+    </task>
+    <task id="LOCAL-00009" summary="GradeMessage_SwitchExpressions with another switch expressions">
+      <option name="closed" value="true" />
+      <created>1739602707396</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739602707396</updated>
+    </task>
+    <task id="LOCAL-00010" summary="GrossPayInput with koop While">
+      <option name="closed" value="true" />
+      <created>1739617533280</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1739617533280</updated>
+    </task>
+    <task id="LOCAL-00011" summary="AddNumbers with loop do-while">
+      <option name="closed" value="true" />
+      <created>1739618207337</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739618207337</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Cashier with loop for">
+      <option name="closed" value="true" />
+      <created>1739618780173</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739618780173</updated>
+    </task>
+    <task id="LOCAL-00013" summary="StudentsAverageScores - home work with loop for">
+      <option name="closed" value="true" />
+      <created>1739620666326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739620666326</updated>
+    </task>
+    <task id="LOCAL-00014" summary="GreetUser - class with some methods">
+      <option name="closed" value="true" />
+      <created>1739638084294</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739638084294</updated>
+    </task>
+    <task id="LOCAL-00015" summary="InstantCreditCheck - class with local variable, static methods">
+      <option name="closed" value="true" />
+      <created>1739644679817</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1739644679817</updated>
+    </task>
+    <task id="LOCAL-00016" summary="OverloadSumNumber - class with overload methods and use var">
+      <option name="closed" value="true" />
+      <created>1739646024758</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739646024758</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Rectangle - create object">
+      <option name="closed" value="true" />
+      <created>1739730833898</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1739730833898</updated>
+    </task>
+    <task id="LOCAL-00018" summary="HomeAreaCalculator - class used rectangle">
+      <option name="closed" value="true" />
+      <created>1739732256852</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739732256852</updated>
+    </task>
+    <task id="LOCAL-00019" summary="HomeAreaCalculatorRedo - main, Rectangle methods, calculate area">
+      <option name="closed" value="true" />
+      <created>1739811432585</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1739811432585</updated>
+    </task>
+    <task id="LOCAL-00020" summary="RecordClassTest - create Record class">
+      <option name="closed" value="true" />
+      <created>1739814816898</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1739814816898</updated>
+    </task>
+    <task id="LOCAL-00021" summary="RecordClassTest - create Record class">
+      <option name="closed" value="true" />
+      <created>1739814840973</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1739814840973</updated>
+    </task>
+    <task id="LOCAL-00022" summary="LotteryTicket - create int array">
+      <option name="closed" value="true" />
+      <created>1739903101549</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1739903101549</updated>
+    </task>
+    <task id="LOCAL-00023" summary="TextProcessor - reversed string">
+      <option name="closed" value="true" />
+      <created>1739936924143</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1739936924144</updated>
+    </task>
+    <task id="LOCAL-00024" summary="TextProcessor - 3 variant reversed string">
+      <option name="closed" value="true" />
+      <created>1739985187108</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1739985187108</updated>
+    </task>
+    <task id="LOCAL-00025" summary="TextProcessor - addSpaces stringBuilder">
+      <option name="closed" value="true" />
+      <created>1739986500229</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1739986500229</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Create some classes&#10;Person and Employee">
+      <option name="closed" value="true" />
+      <created>1739989733885</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1739989733885</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Проверка вызова конструкторов в классах&#10;&#10;Использование super в дочерних классах">
+      <option name="closed" value="true" />
+      <created>1739991637154</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1739991637154</updated>
+    </task>
+    <task id="LOCAL-00028" summary="overload inherited methods">
+      <option name="closed" value="true" />
+      <created>1740071669507</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1740071669507</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="GrossPayCalculator" />
+    <MESSAGE value="SalaryCalculator with condition if" />
+    <MESSAGE value="SalaryCalculator with condition if and close scanner" />
+    <MESSAGE value="QuotaCalculator with condition if else" />
+    <MESSAGE value="TestResults with condition if else else-if" />
+    <MESSAGE value="GradeMessage with switch" />
+    <MESSAGE value="GradeMessage_SwitchExpressions with another switch expressions" />
+    <MESSAGE value="GrossPayInput with koop While" />
+    <MESSAGE value="AddNumbers with loop do-while" />
+    <MESSAGE value="Cashier with loop for" />
+    <MESSAGE value="StudentsAverageScores - home work with loop for" />
+    <MESSAGE value="GreetUser - class with some methods" />
+    <MESSAGE value="InstantCreditCheck - class with local variable, static methods" />
+    <MESSAGE value="OverloadSumNumber - class with overload methods and use var" />
+    <MESSAGE value="Rectangle - create object" />
+    <MESSAGE value="HomeAreaCalculator - class used rectangle" />
+    <MESSAGE value="HomeAreaCalculatorRedo - main, Rectangle methods, calculate area" />
+    <MESSAGE value="RecordClassTest - create Record class" />
+    <MESSAGE value="LotteryTicket - create int array" />
+    <MESSAGE value="TextProcessor - reversed string" />
+    <MESSAGE value="TextProcessor - 3 variant reversed string" />
+    <MESSAGE value="TextProcessor - addSpaces stringBuilder" />
+    <MESSAGE value="Create some classes&#10;Person and Employee" />
+    <MESSAGE value="Проверка вызова конструкторов в классах&#10;&#10;Использование super в дочерних классах" />
+    <MESSAGE value="overload inherited methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="overload inherited methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/main/java/strings/TextProcessor.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
