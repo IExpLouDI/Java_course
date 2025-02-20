@@ -3,9 +3,10 @@ package objects;
 import java.util.Scanner;
 
 public class Rectangle {
-    private double length;
-    private double width;
-    private int sides = 4;
+
+    protected double length;
+    protected double width;
+    protected int sides = 4;
 
     public Rectangle(){
         // default rectangle
