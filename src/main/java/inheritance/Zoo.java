@@ -15,11 +15,22 @@ public class Zoo {
         Dog rocky = new Dog();
 //        rocky.fetch();
 //        rocky.makeSound();
-
+        feed(rocky);
         Animal sasha = new Dog();
 //        sasha.makeSound();
 
         sasha = new Cat();
         sasha.makeSound();
+        feed(sasha);
+//        ((Cat)sasha).scratch();
+        
+    }
+    
+    public static void feed(Animal animal){
+        if (animal instanceof Dog){
+            System.out.println("Here's your dog food");
+        } else if (animal instanceof Cat) {
+            System.out.println("Here's your cat food");
+        }
     }
 }
