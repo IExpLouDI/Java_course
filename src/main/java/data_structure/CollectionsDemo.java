@@ -13,9 +13,9 @@ public class CollectionsDemo {
      */
     public static void main(String[] args) {
 //        setDemo();
-//        listDemo();
+        listDemo();
 //        queueDemo();
-        mapDemo();
+//        mapDemo();
     }
     public static void mapDemo(){
         Map<String, Integer> fruitCalories = new HashMap<String, Integer>();
@@ -67,9 +67,16 @@ public class CollectionsDemo {
         fruits.remove("lemon");
 ////        fruits.remove(3);
 
-        for (String fruit : fruits){
-            System.out.println(fruit);
-        }
+//        for (String fruit : fruits){
+//            System.out.println(fruit);
+//        }
+        fruits.forEach(f->System.out.println(f));
+
+        //multiply statements
+        fruits.forEach(f-> {
+            f = "fruit: " + f;
+            System.out.println(f);
+        });
 
 
 //
