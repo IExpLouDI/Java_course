@@ -6,7 +6,28 @@ public class CollectionsDemo {
     public static void main(String[] args) {
 //        setDemo();
 //        listDemo();
-        queueDemo();
+//        queueDemo();
+        mapDemo();
+    }
+    public static void mapDemo(){
+        Map fruitCalories = new HashMap();
+        fruitCalories.put("apple", 95.3);
+        fruitCalories.put("lemon", 20);
+        fruitCalories.put("banana", 129);
+        fruitCalories.put("orange", 45);
+        fruitCalories.putIfAbsent("lemon", 70);
+        fruitCalories.remove("lemon");
+
+        System.out.println(fruitCalories);
+        System.out.println("Banana calories: " + fruitCalories.get("banana"));
+        System.out.println("Contains orange: " + fruitCalories.containsKey("orange"));
+        System.out.println(fruitCalories.keySet());
+
+        Map immutableFruitCalories = Map.of(
+                "apple", 99,
+                "lemon", 22
+        );
+        System.out.println(immutableFruitCalories);
     }
 
     public static void queueDemo(){
