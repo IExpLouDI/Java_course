@@ -12,11 +12,12 @@ public class CollectionsDemo {
      *       - map.
      */
     public static void main(String[] args) {
-//        setDemo();
+        setDemo();
         listDemo();
-//        queueDemo();
-//        mapDemo();
+        queueDemo();
+        mapDemo();
     }
+
     public static void mapDemo(){
         Map<String, Integer> fruitCalories = new HashMap<String, Integer>();
         fruitCalories.put("apple", 95);
@@ -29,16 +30,21 @@ public class CollectionsDemo {
         for (Map.Entry caloriesInfo : fruitCalories.entrySet()){
             System.out.println(caloriesInfo.getKey() + ": " + caloriesInfo.getValue());
         }
-//        System.out.println(fruitCalories);
-//        System.out.println("Banana calories: " + fruitCalories.get("banana"));
-//        System.out.println("Contains orange: " + fruitCalories.containsKey("orange"));
-//        System.out.println(fruitCalories.keySet());
-//
-//        Map immutableFruitCalories = Map.of(
-//                "apple", 99,
-//                "lemon", 22
-//        );
-//        System.out.println(immutableFruitCalories);
+
+        fruitCalories.forEach((k, v) ->
+                System.out.println(k + ": " + v)
+        );
+
+        System.out.println(fruitCalories);
+        System.out.println("Banana calories: " + fruitCalories.get("banana"));
+        System.out.println("Contains orange: " + fruitCalories.containsKey("orange"));
+        System.out.println(fruitCalories.keySet());
+
+        Map immutableFruitCalories = Map.of(
+                "apple", 99,
+                "lemon", 22
+        );
+        System.out.println(immutableFruitCalories);
     }
 
     public static void queueDemo(){
@@ -65,11 +71,17 @@ public class CollectionsDemo {
         fruits.add("apple");
         fruits.set(2, "grape");
         fruits.remove("lemon");
-////        fruits.remove(3);
+        fruits.remove(3);
 
-//        for (String fruit : fruits){
-//            System.out.println(fruit);
-//        }
+        for (String fruit : fruits){
+            System.out.println(fruit);
+        }
+        System.out.println("*****");
+        //#1
+        fruits.forEach(System.out::println);
+
+        System.out.println("*****");
+        //#2
         fruits.forEach(f->System.out.println(f));
 
         //multiply statements
@@ -79,16 +91,16 @@ public class CollectionsDemo {
         });
 
 
-//
-//        System.out.println("Index 2: " + fruits.get(2));
-//        System.out.println("Index of grape: " + fruits.indexOf("grape"));
-//        System.out.println("Last index of lemon: " + fruits.lastIndexOf("apple"));
-//
-//        System.out.println(fruits);
-//
-//        List moreFruits = List.of("cherry", "plum"); //immutable
-//
-//        System.out.println(moreFruits);
+
+        System.out.println("Index 2: " + fruits.get(2));
+        System.out.println("Index of grape: " + fruits.indexOf("grape"));
+        System.out.println("Last index of lemon: " + fruits.lastIndexOf("apple"));
+
+        System.out.println(fruits);
+
+        List moreFruits = List.of("cherry", "plum"); //immutable
+
+        System.out.println(moreFruits);
 
     }
 
