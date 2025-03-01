@@ -3,20 +3,37 @@ package data_structure;
 import java.util.*;
 
 public class CollectionsDemo {
+    /**
+     *              Accces to Iterator
+     *       - list;
+     *       - set;
+     *       - queue.
+     *              No Access to Iterator
+     *       - map.
+     */
     public static void main(String[] args) {
-//        setDemo();
-//        listDemo();
-//        queueDemo();
+        setDemo();
+        listDemo();
+        queueDemo();
         mapDemo();
     }
+
     public static void mapDemo(){
-        Map fruitCalories = new HashMap();
-        fruitCalories.put("apple", 95.3);
+        Map<String, Integer> fruitCalories = new HashMap<String, Integer>();
+        fruitCalories.put("apple", 95);
         fruitCalories.put("lemon", 20);
         fruitCalories.put("banana", 129);
         fruitCalories.put("orange", 45);
         fruitCalories.putIfAbsent("lemon", 70);
         fruitCalories.remove("lemon");
+
+        for (Map.Entry caloriesInfo : fruitCalories.entrySet()){
+            System.out.println(caloriesInfo.getKey() + ": " + caloriesInfo.getValue());
+        }
+
+        fruitCalories.forEach((k, v) ->
+                System.out.println(k + ": " + v)
+        );
 
         System.out.println(fruitCalories);
         System.out.println("Banana calories: " + fruitCalories.get("banana"));
@@ -46,16 +63,34 @@ public class CollectionsDemo {
     }
 
     public static void listDemo(){
-        List fruits = new ArrayList();
+        List<String> fruits = new ArrayList();
         fruits.add("apple");
         fruits.add("lemon");
         fruits.add("banana");
         fruits.add("orange");
-
         fruits.add("apple");
         fruits.set(2, "grape");
         fruits.remove("lemon");
-//        fruits.remove(3);
+        fruits.remove(3);
+
+        for (String fruit : fruits){
+            System.out.println(fruit);
+        }
+        System.out.println("*****");
+        //#1
+        fruits.forEach(System.out::println);
+
+        System.out.println("*****");
+        //#2
+        fruits.forEach(f->System.out.println(f));
+
+        //multiply statements
+        fruits.forEach(f-> {
+            f = "fruit: " + f;
+            System.out.println(f);
+        });
+
+
 
         System.out.println("Index 2: " + fruits.get(2));
         System.out.println("Index of grape: " + fruits.indexOf("grape"));
@@ -75,6 +110,12 @@ public class CollectionsDemo {
         fruits.add("banana");
         fruits.add("orange");
         fruits.add("apple");
+
+        var i = fruits.iterator();
+
+        while(i.hasNext()){
+            System.out.println(i.next());
+        }
 
         System.out.println(fruits);
 
