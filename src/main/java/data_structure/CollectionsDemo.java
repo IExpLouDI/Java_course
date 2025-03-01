@@ -3,6 +3,14 @@ package data_structure;
 import java.util.*;
 
 public class CollectionsDemo {
+    /**
+     *              Accces to Iterator
+     *       - list;
+     *       - set;
+     *       - queue.
+     *              No Access to Iterator
+     *       - map.
+     */
     public static void main(String[] args) {
 //        setDemo();
 //        listDemo();
@@ -10,24 +18,27 @@ public class CollectionsDemo {
         mapDemo();
     }
     public static void mapDemo(){
-        Map fruitCalories = new HashMap();
-        fruitCalories.put("apple", 95.3);
+        Map<String, Integer> fruitCalories = new HashMap<String, Integer>();
+        fruitCalories.put("apple", 95);
         fruitCalories.put("lemon", 20);
         fruitCalories.put("banana", 129);
         fruitCalories.put("orange", 45);
         fruitCalories.putIfAbsent("lemon", 70);
         fruitCalories.remove("lemon");
 
-        System.out.println(fruitCalories);
-        System.out.println("Banana calories: " + fruitCalories.get("banana"));
-        System.out.println("Contains orange: " + fruitCalories.containsKey("orange"));
-        System.out.println(fruitCalories.keySet());
-
-        Map immutableFruitCalories = Map.of(
-                "apple", 99,
-                "lemon", 22
-        );
-        System.out.println(immutableFruitCalories);
+        for (Map.Entry caloriesInfo : fruitCalories.entrySet()){
+            System.out.println(caloriesInfo.getKey() + ": " + caloriesInfo.getValue());
+        }
+//        System.out.println(fruitCalories);
+//        System.out.println("Banana calories: " + fruitCalories.get("banana"));
+//        System.out.println("Contains orange: " + fruitCalories.containsKey("orange"));
+//        System.out.println(fruitCalories.keySet());
+//
+//        Map immutableFruitCalories = Map.of(
+//                "apple", 99,
+//                "lemon", 22
+//        );
+//        System.out.println(immutableFruitCalories);
     }
 
     public static void queueDemo(){
@@ -46,26 +57,31 @@ public class CollectionsDemo {
     }
 
     public static void listDemo(){
-        List fruits = new ArrayList();
+        List<String> fruits = new ArrayList();
         fruits.add("apple");
         fruits.add("lemon");
         fruits.add("banana");
         fruits.add("orange");
-
         fruits.add("apple");
         fruits.set(2, "grape");
         fruits.remove("lemon");
-//        fruits.remove(3);
+////        fruits.remove(3);
 
-        System.out.println("Index 2: " + fruits.get(2));
-        System.out.println("Index of grape: " + fruits.indexOf("grape"));
-        System.out.println("Last index of lemon: " + fruits.lastIndexOf("apple"));
+        for (String fruit : fruits){
+            System.out.println(fruit);
+        }
 
-        System.out.println(fruits);
 
-        List moreFruits = List.of("cherry", "plum"); //immutable
-
-        System.out.println(moreFruits);
+//
+//        System.out.println("Index 2: " + fruits.get(2));
+//        System.out.println("Index of grape: " + fruits.indexOf("grape"));
+//        System.out.println("Last index of lemon: " + fruits.lastIndexOf("apple"));
+//
+//        System.out.println(fruits);
+//
+//        List moreFruits = List.of("cherry", "plum"); //immutable
+//
+//        System.out.println(moreFruits);
 
     }
 
@@ -75,6 +91,12 @@ public class CollectionsDemo {
         fruits.add("banana");
         fruits.add("orange");
         fruits.add("apple");
+
+        var i = fruits.iterator();
+
+        while(i.hasNext()){
+            System.out.println(i.next());
+        }
 
         System.out.println(fruits);
 
