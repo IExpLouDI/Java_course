@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf7f413-7704-45f5-a064-cf17da62e900" name="Changes" comment="Create print in superclass then overload">
+    <list default="true" id="acf7f413-7704-45f5-a064-cf17da62e900" name="Changes" comment="TryWIthResources">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/NegativeInputException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/ThrowingExceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/InheritanceTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/InheritanceTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,61 +29,61 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "OPEN",
-      "author": "IExpLouDI"
+      &quot;state&quot;: &quot;OPEN&quot;,
+      &quot;author&quot;: &quot;IExpLouDI&quot;
     },
     {
-      "state": "OPEN"
+      &quot;state&quot;: &quot;OPEN&quot;
     }
   ],
-  "lastFilter": {
-    "state": "OPEN"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDON5sVi86LVgWK",
-        "number": 1
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDON5sVi86LVgWK&quot;,
+        &quot;number&quot;: 1
       },
-      "lastSeen": 1739617556951
+      &quot;lastSeen&quot;: 1739617556951
     },
     {
-      "id": {
-        "id": "PR_kwDON5sVi86LWSur",
-        "number": 3
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDON5sVi86LWSur&quot;,
+        &quot;number&quot;: 3
       },
-      "lastSeen": 1739647628265
+      &quot;lastSeen&quot;: 1739647628265
     }
   ]
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/IExpLouDI/Java_course.git",
-    "accountId": "7711a45c-e08c-4f22-9d77-e04f33edc468"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IExpLouDI/Java_course.git&quot;,
+    &quot;accountId&quot;: &quot;7711a45c-e08c-4f22-9d77-e04f33edc468&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "IExpLouDI",
-    "repository": "Java_course"
+    &quot;owner&quot;: &quot;IExpLouDI&quot;,
+    &quot;repository&quot;: &quot;Java_course&quot;
   }
-}]]></component>
+}</component>
   <component name="GradleModuleStateConfig" initialized="true" />
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2t2lJzzdhM2XCgUGxLa2nGqkKUs" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -93,6 +94,8 @@
   "keyToString": {
     "Application.AddNunbers.executor": "Run",
     "Application.Cashier.executor": "Run",
+    "Application.CollectionsDemo.executor": "Run",
+    "Application.ExceptionHandling.executor": "Run",
     "Application.GradeMessage.executor": "Run",
     "Application.GradeMessage_SwitchExpressions.executor": "Run",
     "Application.GreetUser.executor": "Run",
@@ -102,19 +105,25 @@
     "Application.HomeAreaCalculatorRedo.executor": "Run",
     "Application.InheritanceTester.executor": "Run",
     "Application.InstantCreditCheck.executor": "Run",
+    "Application.Library.executor": "Run",
     "Application.LotteryTicket.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MultipleExceptionHandling.executor": "Run",
     "Application.OverloadSumNumber.executor": "Run",
     "Application.QuotaCalculator.executor": "Run",
     "Application.RecordClassTest.executor": "Run",
     "Application.Rectangle.executor": "Run",
     "Application.SalaryCalculator.executor": "Run",
+    "Application.ShapeTester.executor": "Run",
+    "Application.StreamOperations.executor": "Run",
     "Application.StudentsAverageScores.executor": "Run",
     "Application.TestResults.executor": "Run",
     "Application.TextProcessor.executor": "Run",
+    "Application.TryWIthResources.executor": "Run",
+    "Application.Zoo.executor": "Run",
     "Maven.Java_course [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "part__6",
+    "git-widget-placeholder": "part__11",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/Users/vssuchkov/Desktop/IT/Educational/java/Projects/Java_course/src/main/java/org/example/Main.java"
   }
@@ -366,7 +375,143 @@
       <option name="project" value="LOCAL" />
       <updated>1740072174504</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Polimorphism">
+      <option name="closed" value="true" />
+      <created>1740074085579</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1740074085579</updated>
+    </task>
+    <task id="LOCAL-00031" summary="create method feed with compare classes">
+      <option name="closed" value="true" />
+      <created>1740590971348</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1740590971348</updated>
+    </task>
+    <task id="LOCAL-00032" summary="create abstract class">
+      <option name="closed" value="true" />
+      <created>1740681006387</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1740681006387</updated>
+    </task>
+    <task id="LOCAL-00033" summary="add info about abstract classes">
+      <option name="closed" value="true" />
+      <created>1740681393596</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1740681393596</updated>
+    </task>
+    <task id="LOCAL-00034" summary="interfaces and info about it">
+      <option name="closed" value="true" />
+      <created>1740817539634</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1740817539634</updated>
+    </task>
+    <task id="LOCAL-00035" summary="interfaces and info about it">
+      <option name="closed" value="true" />
+      <created>1740821365733</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1740821365733</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Work with set">
+      <option name="closed" value="true" />
+      <created>1740822096306</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1740822096306</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Work with list">
+      <option name="closed" value="true" />
+      <created>1740845139702</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1740845139702</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Work with LinkedList">
+      <option name="closed" value="true" />
+      <created>1740845535511</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1740845535511</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Work with HashMap">
+      <option name="closed" value="true" />
+      <created>1740846094374</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1740846094374</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Work with iterator">
+      <option name="closed" value="true" />
+      <created>1740849016837</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1740849016837</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Work with forEach in List">
+      <option name="closed" value="true" />
+      <created>1740849396092</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1740849396092</updated>
+    </task>
+    <task id="LOCAL-00042" summary="All collections">
+      <option name="closed" value="true" />
+      <created>1740849866717</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1740849866717</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Work with Stream">
+      <option name="closed" value="true" />
+      <created>1741107780795</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1741107780795</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Create simple ExceptionHandling">
+      <option name="closed" value="true" />
+      <created>1741108288585</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1741108288585</updated>
+    </task>
+    <task id="LOCAL-00045" summary="MultipleExceptionHandling">
+      <option name="closed" value="true" />
+      <created>1741201374012</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1741201374012</updated>
+    </task>
+    <task id="LOCAL-00046" summary="TryWIthResources">
+      <option name="closed" value="true" />
+      <created>1741458394187</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1741458394187</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,22 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SalaryCalculator with condition if" />
-    <MESSAGE value="SalaryCalculator with condition if and close scanner" />
-    <MESSAGE value="QuotaCalculator with condition if else" />
-    <MESSAGE value="TestResults with condition if else else-if" />
-    <MESSAGE value="GradeMessage with switch" />
-    <MESSAGE value="GradeMessage_SwitchExpressions with another switch expressions" />
-    <MESSAGE value="GrossPayInput with koop While" />
-    <MESSAGE value="AddNumbers with loop do-while" />
-    <MESSAGE value="Cashier with loop for" />
-    <MESSAGE value="StudentsAverageScores - home work with loop for" />
-    <MESSAGE value="GreetUser - class with some methods" />
-    <MESSAGE value="InstantCreditCheck - class with local variable, static methods" />
-    <MESSAGE value="OverloadSumNumber - class with overload methods and use var" />
-    <MESSAGE value="Rectangle - create object" />
-    <MESSAGE value="HomeAreaCalculator - class used rectangle" />
-    <MESSAGE value="HomeAreaCalculatorRedo - main, Rectangle methods, calculate area" />
     <MESSAGE value="RecordClassTest - create Record class" />
     <MESSAGE value="LotteryTicket - create int array" />
     <MESSAGE value="TextProcessor - reversed string" />
@@ -433,7 +562,23 @@
     <MESSAGE value="Проверка вызова конструкторов в классах&#10;&#10;Использование super в дочерних классах" />
     <MESSAGE value="overload inherited methods" />
     <MESSAGE value="Create print in superclass then overload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create print in superclass then overload" />
+    <MESSAGE value="Polimorphism" />
+    <MESSAGE value="create method feed with compare classes" />
+    <MESSAGE value="create abstract class" />
+    <MESSAGE value="add info about abstract classes" />
+    <MESSAGE value="interfaces and info about it" />
+    <MESSAGE value="Work with set" />
+    <MESSAGE value="Work with list" />
+    <MESSAGE value="Work with LinkedList" />
+    <MESSAGE value="Work with HashMap" />
+    <MESSAGE value="Work with iterator" />
+    <MESSAGE value="Work with forEach in List" />
+    <MESSAGE value="All collections" />
+    <MESSAGE value="Work with Stream" />
+    <MESSAGE value="Create simple ExceptionHandling" />
+    <MESSAGE value="MultipleExceptionHandling" />
+    <MESSAGE value="TryWIthResources" />
+    <option name="LAST_COMMIT_MESSAGE" value="TryWIthResources" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -442,6 +587,15 @@
           <url>file://$PROJECT_DIR$/src/main/java/strings/TextProcessor.java</url>
           <line>34</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/data_structure/CollectionsDemo.java</url>
+          <line>20</line>
+          <properties class="data_structure.CollectionsDemo" method="mapDemo">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
