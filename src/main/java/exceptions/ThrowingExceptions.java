@@ -1,5 +1,10 @@
 package exceptions;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class ThrowingExceptions {
 
     public static double calculatePay(double hours, double payRate)
@@ -14,5 +19,22 @@ public class ThrowingExceptions {
 
         return hours * payRate;
 
+    }
+
+    public static void rethrowException() throws IOException {
+        File file = new File("nonexistent.txt");
+        file.createNewFile();
+    }
+
+    public static void rethrowMultipleException() throws IOException, InputMismatchException {
+        File file = new File("nonexistent.txt");
+        file.createNewFile();
+    }
+
+    // Polymorphic throws statement
+    public static void rethrowExceptions() throws IOException {
+        File file = new File("nonexistent.txt");
+        file.createNewFile();
+        Scanner scanner = new Scanner(file);
     }
 }
